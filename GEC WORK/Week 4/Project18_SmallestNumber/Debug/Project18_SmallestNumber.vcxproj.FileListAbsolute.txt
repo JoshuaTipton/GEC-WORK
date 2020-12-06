@@ -1,2 +1,0 @@
-C:\Users\joshu\Desktop\GEC WORK\Week 4\Project18_SmallestNumber\Debug\Project18_SmallestNumber.exe
-C:\Users\joshu\Desktop\GEC WORK\Week 4\Project18_SmallestNumber\Debug\Project18_SmallestNumber.pdb

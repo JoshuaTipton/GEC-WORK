@@ -1,2 +1,0 @@
-C:\Users\joshu\Desktop\GEC WORK\Week 4\Project17_LocalVariablesAndCopies\Debug\Project17_LocalVariablesAndCopies.exe
-C:\Users\joshu\Desktop\GEC WORK\Week 4\Project17_LocalVariablesAndCopies\Debug\Project17_LocalVariablesAndCopies.pdb

@@ -1,2 +1,0 @@
-C:\Users\joshu\Desktop\GEC work\Week 1\Project5_IncrementDecrment\Debug\Project5_IncrementDecrment.exe
-C:\Users\joshu\Desktop\GEC work\Week 1\Project5_IncrementDecrment\Debug\Project5_IncrementDecrment.pdb
