@@ -1,0 +1,6 @@
+﻿  Source.cpp
+C:\Users\joshu\Desktop\GEC work\Week 7\Project32_BrokenBMI\Source.cpp(30,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\joshu\Desktop\GEC work\Week 7\Project32_BrokenBMI\Source.cpp(30,13): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\joshu\Desktop\GEC work\Week 7\Project32_BrokenBMI\Source.cpp(115,11): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\joshu\Desktop\GEC work\Week 7\Project32_BrokenBMI\Source.cpp(116,11): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Project32_BrokenBMI.vcxproj -> C:\Users\joshu\Desktop\GEC work\Week 7\Project32_BrokenBMI\Debug\Project32_BrokenBMI.exe

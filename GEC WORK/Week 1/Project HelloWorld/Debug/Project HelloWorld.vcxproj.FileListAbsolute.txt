@@ -1,0 +1,2 @@
+C:\Users\joshu\Desktop\GEC work\Week 1\Project HelloWorld\Debug\Project HelloWorld.exe
+C:\Users\joshu\Desktop\GEC work\Week 1\Project HelloWorld\Debug\Project HelloWorld.pdb

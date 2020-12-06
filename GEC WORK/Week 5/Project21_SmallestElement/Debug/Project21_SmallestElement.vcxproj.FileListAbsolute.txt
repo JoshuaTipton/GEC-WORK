@@ -1,0 +1,2 @@
+C:\Users\joshu\Desktop\GEC WORK\Week 5\Project21_SmallestElement\Debug\Project21_SmallestElement.exe
+C:\Users\joshu\Desktop\GEC WORK\Week 5\Project21_SmallestElement\Debug\Project21_SmallestElement.pdb
