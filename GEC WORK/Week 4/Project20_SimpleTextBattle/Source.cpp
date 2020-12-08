@@ -3,13 +3,30 @@ using namespace std;
 
 int playerHealth = 1000;
 int enemyHealth = 2000;
-
 bool playing = true;
 
-bool attackChoice(int usersChoice);
+int attackChoice(int usersChoice);
 bool playState();
 
-bool attackChoice(int usersChoice)
+int main()
+{
+	int playersChoice;
+
+	while (playing == true)
+	{
+		cout << "You encounter a Troll" << endl;
+		cout << "1. use Sword 2. use Magic 3. use Axe" << endl;
+		cout << "each choice has a different effects" << endl;
+		cin >> playersChoice;
+
+		attackChoice(playersChoice);
+	}
+
+	return 0;
+
+}
+
+int attackChoice(int usersChoice)
 {
 	const int swordDamage = 300;
 	const int magicDamage = 650;
@@ -44,8 +61,6 @@ bool attackChoice(int usersChoice)
 
 			cout << "\n1. use Sword 2. use Magic 3. use Axe" << endl;
 			cin >> usersChoice;
-
-			attackChoice(usersChoice);
 			break;
 		}
 
@@ -111,15 +126,15 @@ bool attackChoice(int usersChoice)
 
 bool playState()
 {
-	char playAgain;
+	int playAgain;
 
 	if (enemyHealth <= 0)
 	{
 		cout << "\nYou have killed the Troll and won!" << endl;
-		cout << "Would you like to play again? y/n" << endl;
+		cout << "Would you like to play again? 1) Yes 2) No" << endl;
 		cin >> playAgain;
 
-		if (playAgain == 'y')
+		if (playAgain == 1)
 		{
 			playerHealth = 1000;
 			enemyHealth = 2000;
@@ -127,19 +142,19 @@ bool playState()
 			playing = true;
 		}
 
-		if (playAgain == 'n')
+		if (playAgain == 2)
 		{
-			EXIT_SUCCESS;
+			return playing;
 		}
 	}
 
 	if (playerHealth <= 0)
 	{
 		cout << "\nYou have been killed!" << endl;
-		cout << "Would you like to play again? y/n" << endl;
+		cout << "Would you like to play again? 1) Yes 2) No" << endl;
 		cin >> playAgain;
 
-		if (playAgain == 'y')
+		if (playAgain == 1)
 		{
 			playerHealth = 1000;
 			enemyHealth = 2000;
@@ -147,32 +162,11 @@ bool playState()
 			playing = true;
 		}
 
-		else if (playAgain == 'n')
+		else if (playAgain == 2)
 		{
-			EXIT_SUCCESS;
+			return playing;
 		}
 	}
 
 	return false;
-}
-
-int main()
-{
-	int playersChoice;
-
-	if (playing == true)
-	{
-		cout << "You encounter a Troll" << endl;
-		cout << "1. use Sword 2. use Magic 3. use Axe" << endl;
-		cout << "each choice has a different effects" << endl;
-		cin >> playersChoice;
-
-		attackChoice(playersChoice);
-		playState();
-	}
-
-	else if (playing == false)
-	{
-		return 0;
-	}
 }

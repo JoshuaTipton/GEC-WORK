@@ -3,7 +3,7 @@ using namespace std;
 
 int myArray[10];
 int minimum;
-int position;
+int currentPosition = 1;
 
 int main()
 {
@@ -11,7 +11,7 @@ int main()
 	{
 		cout << "Please enter a number:" << endl;
 		cin >> myArray[i];
-	}		
+	}
 
 	minimum = myArray[0];
 
@@ -20,9 +20,10 @@ int main()
 		if (myArray[i] < minimum)
 		{
 			minimum = myArray[i];
-			position =	
+			currentPosition = i + 1;
 		}
-	}
 
-	cout << "The Smallest Element is: " << minimum << endl;
+	}
+		cout << "The Smallest Element is: " << minimum << endl;
+		cout << "it's position is: " << currentPosition << endl;
 }
