@@ -21,6 +21,17 @@ int main()
 		int userGuess1;
 		int userGuess2;
 
-		cout << "Select
+		cout << "Select a Card" << endl;
+		cin >> userGuess1;
+
+		drawBoardParam(userGuess1, userGuess2);
+
+		cout << "Select another Card" << endl;
+		cin >> userGuess2;
+
+		drawBoardParam(userGuess1, userGuess2);
+		
+		// Check Results
+
 	}
 }
