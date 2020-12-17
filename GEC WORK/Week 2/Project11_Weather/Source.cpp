@@ -13,18 +13,20 @@ int main()
 	{
 	case 1:
 		cout << "Don't forget your sunscreen!" << endl;
-	break;
+		break;
 
 	case 2:
 		cout << "Don't forget to wrap up warm!" << endl;
-	break;
+		break;
 
 	case 3:
 		cout << "Don't forget to wear a coat!" << endl;
-	break;
+		break;
 
 	case 4:
 		cout << "Goodbye!" << endl;
-	break;
+		break;
 	}
+
+	return 0;
 }

@@ -4,10 +4,10 @@ using namespace std;
 int main()
 {
 	const float pi = 3.14159;
-	float radius = 25.0f;
-	float area = pi * radius * radius;
+	float radius = 22.0f;
+	float areaOfCircle = pi * radius * radius;
 
-	cout << "The area of a circle with a radius of " << radius << " is " << area << endl;
+	cout << "The area of a circle with a radius of " << radius << " is " << areaOfCircle << endl;
 
 	return 0;
 }

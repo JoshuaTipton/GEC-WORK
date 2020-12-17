@@ -14,4 +14,6 @@ int main()
 
 	cout << "The number of packets left is: " << remainingHaribo << endl;
 	cout << "The number of packets each student gets is: " << sharedHaribo << endl;
+
+	return 0;
 }

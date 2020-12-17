@@ -1,3 +1,2 @@
 ﻿  Source.cpp
-C:\Users\Joshua\Documents\GitHub\GEC-WORK\GEC WORK\Week 5\Project24_MatchingPairs\Source.cpp(5,27): error C2440: 'initializing': cannot convert from 'bool' to 'bool [5]'
-C:\Users\Joshua\Documents\GitHub\GEC-WORK\GEC WORK\Week 5\Project24_MatchingPairs\Source.cpp(5,20): message : There are no conversions to array types, although there are conversions to references or pointers to arrays
+  Project24_MatchingPairs.vcxproj -> C:\Users\Joshua\Documents\GitHub\GEC-WORK\GEC WORK\Week 5\Project24_MatchingPairs\Debug\Project24_MatchingPairs.exe

@@ -52,4 +52,6 @@ int main()
 
 		outputResults(numOfOdd, oddTotal, numOfEven, evenTotal);
 	}
+
+	return 0;
 }

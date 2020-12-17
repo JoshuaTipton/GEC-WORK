@@ -7,7 +7,7 @@ int newNum;
 float totalNum;
 float averageNum;
 float amountofNum = 2;
-bool loopmaCode = true;
+bool loopCode = true;
 
 int main()
 {
@@ -46,5 +46,7 @@ int main()
 			break;
 		}
 
-	} while (loopmaCode == true);
+	} while (loopCode == true);
+
+	return 0;
 }

@@ -1,2 +1,4 @@
 C:\Users\joshu\Desktop\GEC work\Week 2\Project10_Haribo\Debug\Project10_Haribo.exe
 C:\Users\joshu\Desktop\GEC work\Week 2\Project10_Haribo\Debug\Project10_Haribo.pdb
+C:\Users\Joshua\Documents\GitHub\GEC-WORK\GEC WORK\Week 2\Project10_Haribo\Debug\Project10_Haribo.exe
+C:\Users\Joshua\Documents\GitHub\GEC-WORK\GEC WORK\Week 2\Project10_Haribo\Debug\Project10_Haribo.pdb
